@@ -36,28 +36,28 @@ The project was built as a demonstration of Tableau dashboard development and bu
 
 **Orders per 1000 Population**
 
-1000 × Orders Count / Population
+    1000 × Orders Count / Population
 
 Normalises order volume to enable fairer comparisons between cities of different sizes.
 
 
 **Late Orders Count**
 
-Orders Count × Percentage of Orders Late / 100
+    Orders Count × Percentage of Orders Late / 100
 
 Calculates the estimated number of late deliveries.
 
 
 **Late Orders per 1000 Population**
 
-Late Orders Count × 1000 / Population
+    Late Orders Count × 1000 / Population
 
 Normalises late deliveries by city population to reduce the influence of larger metropolitan areas.
 
 
 **Total Hours Delayed**
 
-((Late Orders Count × (Average Delivery Time − 30)) / 60)
+    ((Late Orders Count × (Average Delivery Time − 30)) / 60)
 
 Estimates cumulative delivery delay assuming deliveries exceeding 30 minutes are considered late (see below).
 
